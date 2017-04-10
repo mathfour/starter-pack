@@ -1,0 +1,29 @@
+:default {
+  background-color: pink;
+}
+
+a:active {
+  background-color: orange;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:focus {
+  font-size: 42px;
+}
+
+a:visited {
+  color: red;
+}
+
+p {
+    display: none;
+    background-color: yellow;
+    padding: 20px;
+}
+
+div:hover p {
+    display: block;
+}
